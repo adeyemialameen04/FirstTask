@@ -8,10 +8,11 @@ const date = new Date().getDay();
 
 
 const Time = () => {
-    const getTime = new Date().getTime()
+    const date = new Date()
+    const timeInMilliseconds = date.getTime()
     console.log(getTime)
 
-    document.getElementById('getTime').textContent =   getTime
+    document.getElementById('getTime').textContent = timeInMilliseconds
 }
     
 
